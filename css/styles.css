@@ -14,7 +14,7 @@ font-family: var(--main-font-family);
 color: var(--main-dark-color);
 font-size: 18px;
 font-weight: 700;
-font-style: Bold ;
+font-style: Bold;
 } 
 
 .link {
@@ -32,6 +32,7 @@ color: inherit
 
 .list {
 list-style: none;
+
 }
 
 .section {
@@ -105,17 +106,23 @@ letter-spacing: 3%;
 }
 
 .main-title {
-
+font-family: 'Roboto';
+font-style: Bold;
+font-weight: 700;
 font-size: 18px;
 line-height: 2.0;
+color: var(--main-dark-color);
+text-decoration: none;
 }
 
 .main-description {
+font-family: 'Roboto';
+font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
 color: var(--main-color);
-font-style: normal;
+text-decoration: none;
 }
 
 .button:hover,
@@ -128,7 +135,7 @@ color: var(--main-light-color);
 .body-first {
 font-family: var(--main-font-family);
 background-color: var(--background-button-color); 
-text-transform: uppercase;} 
+} 
 .heroes-section {
 background-color: var(--background-footer-color);
 }
@@ -146,7 +153,6 @@ background-color: var(--current-color);
 color: var(--main-light-color);
 font-size: 16px;
 line-height: 1.88;
-lit
 display: flex;
 }
 .heroe-button:hover,
@@ -155,7 +161,7 @@ display: flex;
 }
 .value {
 background-color: var(--background-main-color);
-text-transform: uppercase;}
+}
 .value-title {
 font-size: 14px;
 line-height: 1.14;
@@ -191,6 +197,13 @@ color: var(--main-color);
 }
 /* footer */
 .footer {
+font-family: 'Raleway';
+font-style: Bold;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.190;
+color: var(--main-dark-color);
+text-decoration: none;
 background-color: var(--background-footer-color);
 }
 
@@ -204,14 +217,21 @@ color: var(--main-light-color);
 
 .footer-item {
 font-family: var(--main-font-family);
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 1.7;
-font-style: normal;
-color: var(--main-color);
+line-height: 1.71;
+color: var(--main-light-color);
 }
 
-
+.footer-item-second {
+font-family: var(--main-font-family);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+color: var(--main-color);
+}
 
 
 
