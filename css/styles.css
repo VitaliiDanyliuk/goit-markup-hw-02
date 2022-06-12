@@ -63,8 +63,9 @@ overflow: hidden;
 }
 /* Header */
 .header {
- background-color: var(--main-light-color);
- display: flex;  }
+font-family: var(--main-font-family);
+background-color: var(--main-light-color);
+display: flex;  }
 
 .site-logo {
 font-family: 'Raleway';
@@ -100,26 +101,34 @@ font-size: 16px;
 line-height: 1.63;
 font-style: medium;
 display: flex;
+letter-spacing: 3%;
 }
 
 .main-title {
+
 font-size: 18px;
 line-height: 2.0;
 }
 
 .main-description {
-font-size: 18px;
-line-height: 2.0;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
 color: var(--main-color);
 font-style: normal;
 }
 
 .button:hover,
 .button:focus {
-color: var(--current-color);
+background-color: var(--current-color);
+color: var(--main-light-color);
 }
 
 /* main 1 страница */
+.body-first {
+font-family: var(--main-font-family);
+background-color: var(--background-button-color); 
+text-transform: uppercase;} 
 .heroes-section {
 background-color: var(--background-footer-color);
 }
@@ -131,15 +140,22 @@ font-weight: 900;
 display: flex;
 }
 .heroe-button {
+font-family: var(--main-font-family);
+font-weight: 700;
 background-color: var(--current-color);
 color: var(--main-light-color);
 font-size: 16px;
 line-height: 1.88;
+lit
 display: flex;
+}
+.heroe-button:hover,
+.heroe-button:focus {
+    background-color: var(--main-color);
 }
 .value {
 background-color: var(--background-main-color);
-}
+text-transform: uppercase;}
 .value-title {
 font-size: 14px;
 line-height: 1.14;
@@ -163,7 +179,7 @@ background-color: var(--background-button-color);
 }
 .team-name {
 font-weight: 500;
-font-size: 16px;
+font-size: 14px;
 line-height: 1.19;
 font-style: medium;
 }
@@ -187,10 +203,12 @@ color: var(--main-light-color);
 }
 
 .footer-item {
+font-family: var(--main-font-family);
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
-color: var(--main-light-color);
+font-style: normal;
+color: var(--main-color);
 }
 
 
