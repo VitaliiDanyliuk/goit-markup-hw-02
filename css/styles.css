@@ -1,0 +1,199 @@
+:root {
+--main-font-family: 'Roboto', sans-serif;
+--main-dark-color: #212121;
+--main-light-color: #fff;
+--current-color: #2196F3;
+--main-color: #757575;
+--background-button-color: #F5F4FA;
+--background-main-color: #E5E5E5;
+--background-footer-color: #2F303A;
+}
+
+body {
+font-family: var(--main-font-family);
+color: var(--main-dark-color);
+font-size: 18px;
+font-weight: 700;
+font-style: Bold ;
+} 
+
+.link {
+text-decoration: none;
+color: inherit;
+}
+
+.button {
+border: none;
+background-color: transparent;
+cursor: pointer;
+font-family: inherit;
+color: inherit
+}
+
+.list {
+list-style: none;
+}
+
+.section {
+ background-color: var(--background-main-color);
+}
+
+.section-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 1.71;
+color: var(--background-main-color);
+}
+
+.current {
+color: var(--current-color);
+}
+
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+/* Header */
+.header {
+ background-color: var(--main-light-color);
+ display: flex;  }
+
+.site-logo {
+font-family: 'Raleway';
+font-weight: 400;
+font-size: 26px;
+line-height: 1.2;
+color: var(--main-dark-color);
+}
+
+.nav-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+font-style: medium;}
+
+.link:hover,
+.link:focus {
+color: var(--current-color);
+}
+
+
+/* main 2 страница */
+.portfolio {
+background-color: var(--background-main-color);
+}
+
+.main-button {
+font-family: inherit;
+background-color: var(--background-button-color);
+color: var(--main-dark-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+font-style: medium;
+display: flex;
+}
+
+.main-title {
+font-size: 18px;
+line-height: 2.0;
+}
+
+.main-description {
+font-size: 18px;
+line-height: 2.0;
+color: var(--main-color);
+font-style: normal;
+}
+
+.button:hover,
+.button:focus {
+color: var(--current-color);
+}
+
+/* main 1 страница */
+.heroes-section {
+background-color: var(--background-footer-color);
+}
+.main-title-one {
+color: var(--main-light-color);
+font-size: 44px;
+line-height: 1.36;
+font-weight: 900;
+display: flex;
+}
+.heroe-button {
+background-color: var(--current-color);
+color: var(--main-light-color);
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+}
+.value {
+background-color: var(--background-main-color);
+}
+.value-title {
+font-size: 14px;
+line-height: 1.14;
+}
+.value-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 2.0;
+color: var(--main-color);
+font-style: normal;
+}
+.work {
+background-color: var(--background-main-color);
+}
+.work-title {
+font-size: 36px;
+line-height: 1.17;
+}
+.team {
+background-color: var(--background-button-color);
+}
+.team-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+font-style: medium;
+}
+.team-position {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.17;
+color: var(--main-color);
+}
+/* footer */
+.footer {
+background-color: var(--background-footer-color);
+}
+
+.footer-site-logo {
+font-family: 'Raleway';
+font-weight: 400;
+font-size: 26px;
+line-height: 1.2;
+color: var(--main-light-color);
+}
+
+.footer-item {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+color: var(--main-light-color);
+}
+
+
+
+
+
