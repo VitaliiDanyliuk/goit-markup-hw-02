@@ -45,9 +45,7 @@ line-height: 1.71;
 color: var(--background-main-color);
 }
 
-.current {
-color: var(--current-color);
-}
+
 
 .visually-hidden {
 position: absolute;
@@ -80,6 +78,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+color: var(--main-dark-color);
 }
 .nav-item {
 font-style: normal;
@@ -89,12 +88,15 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--main-color);
 }
-.link:hover,
-.link:focus {
+
+.links:hover:hover,
+.links:focus:focus {
 color: var(--current-color);
 }
 
-
+.current {
+color: var(--current-color);
+}
 /* main 2 страница */
 
 .main-button {
@@ -169,9 +171,6 @@ letter-spacing: 0.06em;
 .heroe-button:focus {
     background-color: var(--main-color);
 }
-.value {
-
-}
 .value-title {
 font-style: normal;
 font-weight: 700;
@@ -185,9 +184,6 @@ font-size: 14px;
 line-height: 2.0;
 color: var(--main-color);
 font-style: normal;
-}
-.work {
-
 }
 .work-title {
 font-size: 36px;
